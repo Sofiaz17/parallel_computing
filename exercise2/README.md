@@ -10,7 +10,7 @@ To compile serial code we use the following instruction. Our code is written in 
   g++ -o <executable_name> <file_name>.cpp -std=c++11
 ```
 
-To compile enabling vectorization we use the following instruction:
+To compile so that vectorization is enabled we use the following instruction:
 ```bash
  g++ -ftree-vectorize [-ftree-vectorizer-verbose=2] -O3 -o <executable_name> <file_name>.cpp -std=c++11
  ```
