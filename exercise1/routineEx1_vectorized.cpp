@@ -39,7 +39,7 @@ int main(int argc, char** argv){
     cin >> n;*/
    
     FILE* file;
-    file = fopen("dataEx1.csv", "w");
+    file = fopen("dataEx1_vectorized.csv", "w");
     if(file != NULL){
         cout << "file correctly opened" << endl;
         //fprintf(file, "array_size,time\n");
@@ -55,6 +55,8 @@ int main(int argc, char** argv){
             fprintf(file, "%d,%.17g\n",i,duration);
          }
          cout << "n = " << "2^(" << log2f(i) << ")," << " Time: " << duration << " seconds" << endl;
+             
+     
     }
     fclose(file);
     
