@@ -1,4 +1,4 @@
-#Exercise 1
+#Exercise 1 <br>
 To run the experiments on the cluster we need to request an interactive session with the following instruction:
     qsub -I -q short_cpuQ
 There are other public queues that can be used. For further information about cluster and queues, visit the site 
