@@ -29,3 +29,8 @@ and then run with
 ```
 python3 <python_script>.py
 ```
+If libraries are missing we can install them with 
+```
+pip3 install pandas
+pip3 install matplotlib
+```
